@@ -225,3 +225,60 @@ textarea {
     border: 0;
     width: 100%;
 }
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+
+    #what-i-do-description,.about{
+        padding: 0;
+    }
+
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .resume-container,.skills-container,nav,.banner,nav>ul{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 1px;;
+    }
+    .footer-column {
+        width: 80%; 
+    }
+    .section-title,
+    .section-description{
+        margin-left: 50px;
+    }
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+    #what-i-do-description,.about{
+        padding: 0;
+    }
+
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .resume-container,.skills-container,nav,.banner,nav>ul{
+        flex-direction: column;
+    }
+    .resume-container{
+        padding: 0 20px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 1px;;
+    }
+    .footer-column {
+        width: 90%; 
+    }
+    .section-title,
+    .section-description{
+        margin-left: 50px;
+    }
+
+}
