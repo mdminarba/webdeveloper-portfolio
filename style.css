@@ -231,8 +231,23 @@ textarea {
 
 @media screen and (max-width: 576px){
 
-    #what-i-do-description,.about{
+    #what-i-do-description,.about,.banner{
         padding: 0;
+    }
+    .section-description{
+        margin-left: 0;
+    }
+    nav{
+        margin: 10px 0;
+    }
+    nav li{
+        margin-bottom: 15px;
+       background: #FD6E0A;
+       padding: 12px 25px;
+       border-radius: 8px;
+    }
+    .banner-content {
+        text-align: center;
     }
 
     .banner .profile-pic{
@@ -262,6 +277,21 @@ textarea {
 
     .banner .profile-pic{
         width: 100%;
+    }
+    .section-description{
+        margin-left: 0;
+    }
+    nav{
+        margin: 10px 0;
+    }
+    nav li{
+        margin-bottom: 15px;
+       background: #FD6E0A;
+       padding: 12px 25px;
+       border-radius: 8px;
+    }
+    .banner-content {
+        text-align: center;
     }
     .resume-container,.skills-container,nav,.banner,nav>ul{
         flex-direction: column;
